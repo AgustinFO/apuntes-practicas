@@ -1,10 +1,9 @@
-# GIT
+# Git
 
 ## Indice
 
 1. [Qué es git?](#qué-es-git)
-2. [Qué es github?](#qué-es-github)
-3. [Conceptos básicos](#conceptos-basicos)
+2. [Conceptos básicos](#conceptos-basicos)
 
 ## Qué es Git? 
 
@@ -12,9 +11,6 @@ Es un dVCS que nos permite rastrear los cambios que hemos hecho en un conjunto d
 
 Merge: Fusión de ramas para actualizar los cambios que realizamos en la rama principal.
 
-## Qué es Github?
-
-Servicio de hosting que nos permite almacenar proyectos de desarrollo de SW y de VCS usando git.
 
 ## Conceptos básicos
 
@@ -118,6 +114,7 @@ Servicio de hosting que nos permite almacenar proyectos de desarrollo de SW y de
 - Realiza un merge de 2 branches.
 - Utilizamos `git merge <branch-name>`.
 - Se debe estar situado en la branch que recibirá la fusión.
+- Cuando un conflicto es resuelto se debe usar `git merge --continue`
 
 
 
@@ -265,3 +262,12 @@ Initialized empty Git repository in /home/agustin/Documents/Git/curso-git/.git/
 ### Conflictos al fusionar branches
 
 - Ocurren cuando tratas de combinar archivos que están en conflicto. Cambios que Git considera como incompatibles.
+
+# Github
+
+## Qué es Github?
+
+- Servicio de hosting que nos permite almacenar proyectos de desarrollo de SW y de VCS usando git.
+
+## Clonar un repositorio
+
